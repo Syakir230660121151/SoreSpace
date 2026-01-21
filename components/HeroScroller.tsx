@@ -157,7 +157,7 @@ export default function HeroScroller() {
             style={PRODUCT_TITLE_STYLE}
             className="text-[3.5rem] md:text-[8rem] font-black text-white leading-none tracking-tighter text-center uppercase drop-shadow-2xl"
           >
-            FRAPPUCCINO
+            FRAPUCINNO
           </h2>
         </motion.div>
 
