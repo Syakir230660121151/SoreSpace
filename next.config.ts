@@ -1,16 +1,10 @@
 import type { NextConfig } from "next";
 
-// Perhatikan: saya pakai ': any' agar garis merah hilang
+// Perhatikan: Saya pakai ': any' agar tidak ada merah-merah
 const nextConfig: any = {
-  // 1. Ubah jadi HTML statis (Wajib untuk InfinityFree)
-  output: 'export',
+  // Config untuk Vercel (Normal Mode)
 
-  // 2. Matikan optimasi gambar (Wajib agar gambar muncul)
-  images: {
-    unoptimized: true,
-  },
-
-  // 3. Matikan pengecekan error saat Build (Agar build sukses walau ada error)
+  // Matikan pengecekan error saat Build (Penting untuk Vercel)
   eslint: {
     ignoreDuringBuilds: true,
   },
