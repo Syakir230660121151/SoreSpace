@@ -25,7 +25,7 @@ export default function HeroScroller() {
   // --- KONTEN MARQUEE (TEKS BERJALAN) ---
   // SAYA PINDAHKAN KE SINI AGAR PASTI TER-UPDATE
   // Menggunakan simbol '✦' (Sparkle)
-  const MARQUEE_TEXT = "OPEN DAILY 10.00 - 22.00   ✦   FREE WIFI   ✦   BEST FRAPPUCCINO IN TOWN   ✦   SORE SPACE   ✦   ";
+  const MARQUEE_TEXT = "OPEN DAILY 10.00 - 02.00   ✦   FREE WIFI   ✦   BEST FRAPUCINNO IN TOWN   ✦   SORE SPACE   ✦   ";
   const MARQUEE_CONTENT = Array(10).fill(MARQUEE_TEXT);
 
   // 1. SETUP SCROLL
